@@ -1,0 +1,162 @@
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-bottom {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-top {
+  color: white;
+  justify-content: center;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+.centerblock {
+  display: block;
+
+}
+
+.larger {
+  max-width: 10em;
+  min-height: 1.5em;
+  margin: 0 auto;
+  margin-right: .5em;
+}
+
+.largermain {
+  max-width: 10em;
+  min-height: 1.5em;
+  margin: 0 auto;
+  margin-right: .5em;
+}
+
+#requet-submit {
+  max-width: 50%;
+  min-height: 2em;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1em;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: rgba(23, 154, 23, 0.816);
+  border-radius: .3em;
+  min-width: 7em;
+}
+
+.flexcards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.paddingcards {
+  padding: 2em;
+}
+
+.center {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.background {
+  /* background-image: url('/images/pattern.svg'); */
+  background-size: cover !important;
+  background-size: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerbut {
+  justify-content: flex-end;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: .7em;
+  margin-left: 3em;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: end;
+
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 600px) {
+  .headerbut {
+    justify-content: flex-end;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: .2em;
+  }
+
+  .buttons {
+    font-size: 10px;
+    background-color: rgba(23, 154, 23, 0.816);
+    border-radius: .3em;
+  }
+
+}
+
+.hide {
+  display: none;
+}
+
+.gone {
+  display: none !important;
+}
+
+#weathercards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#cardsdis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.linkstyle {
+  color: green
+}
+
+.test {
+
+  background-color: blue;
+  ;
+}
+
+.largerimg {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imgfive {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}

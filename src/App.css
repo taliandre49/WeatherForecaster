@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.smaller {
+  max-width: 9em;
+  min-height: 1.6em;
+  margin: 0 auto;
+  margin-right: .6em;
+}
+
+.headerbut {
+  justify-content: flex-end;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: .7em;
+  margin-left: 3em;
+}
+
+.flexdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: end;
+
+}
+
+.flex-top {
+  color: white;
+  justify-content: center;
+  margin-bottom: .5em;
+  font-size: 24px;
+}
+
+
+.background {
+  background-image: url('/images/pattern.svg');
+}
+
+
+.App-head {
+  background-color: rgba(255, 81, 0, 0.932);
+
+  max-height: 6vw;
+  font-size: 2vw;
+  position: absolute;
+  width: 100%;
+}
+
+.buttons {
+  background-color: rgba(23, 154, 23, 0.816);
+  border-radius: .3em;
+  max-height: 1em;
+  min-width: 8em;
+}
+
+
+h3 {
+  padding-left: 1vw;
+  padding-bottom: 1em;
+  width: 75%;
+  color: white;
+}
+
+.middle {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.flex-bottom {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 600px) {
+  .headerbut {
+    justify-content: flex-end;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: .2em;
+  }
+
+  .buttons {
+    font-size: 10px;
+    background-color: rgba(23, 154, 23, 0.816);
+    border-radius: .3em;
+  }
+
+}
+
+.hide {
+  display: none;
+}
